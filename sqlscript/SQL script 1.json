@@ -2,12 +2,12 @@
 	"name": "SQL script 1",
 	"properties": {
 		"content": {
-			"query": "create database if not exists retailDev;\n\nuse retailDev;\n",
+			"query": "-- create database if not exists retailDev;\n\nuse retailDev;\n\n\nselect name from sys.schemas;",
 			"metadata": {
 				"language": "sql"
 			},
 			"currentConnection": {
-				"databaseName": "master",
+				"databaseName": "retailDev",
 				"poolName": "Built-in"
 			},
 			"resultLimit": 5000
